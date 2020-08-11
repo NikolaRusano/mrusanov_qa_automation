@@ -27,4 +27,18 @@ public class HerokuTest {
         //then it clicks `Login` button
         //Here should be a check that user is logged in and a new content is displayed
     }
+
+    @Test
+    public void testDynamicLoadingElement(){
+        //TO DO add a test which goes to  http://the-internet.herokuapp.com/dynamic_loading/1 URL and
+        //clicks start button
+        //Here should be a check that Hello World text is displayed
+    }
+
+    @Test
+    public void testDownloadFile(){
+        //TO DO add a test which goes to http://the-internet.herokuapp.com/jqueryui/menu URL and
+        //goes to Enabled-Download-Excel and clicks it
+        //verify that the file is downloaded
+    }
 }
